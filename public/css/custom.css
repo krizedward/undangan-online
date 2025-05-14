@@ -1,0 +1,17 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+@font-face {
+  font-family: 'Amsterdam One';
+  src: url('../fonts/Amsterdam-One-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TAN Mon Cheri';
+  src: url('../fonts/tan-mon-cheri.woff2') format('woff2'),
+       url('../fonts/tan-mon-cheri.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

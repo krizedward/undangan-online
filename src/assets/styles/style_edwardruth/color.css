@@ -1,0 +1,16 @@
+/* Warna background beda biar kelihatan */
+/* #home { background-color: #ff6b6b; } */
+/* #profile { background-color: #feca57; } */
+#love-story { background-color: #922f2f; }
+#wedding-event { background-color: #ffffff; }
+#rsvp { background-color: #ffffff; }
+/* #gift { background-color: #222f3e; } */
+#gallery { background-color: #ffffff; }
+
+/* Animasi fade */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 1.5s ease;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}

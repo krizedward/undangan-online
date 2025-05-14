@@ -1,0 +1,73 @@
+/* membuat css global untuk bisa di gunakan oleh seluruh website */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.page-container {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  /* overflow-y: scroll; */
+}
+
+.section {
+  min-height: 100vh;
+  /* scroll-snap-align: start; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 2rem; */
+  /* font-weight: bold; */
+}
+
+#app {
+  font-family: 'Lustria', serif;
+  max-width: 480px;
+  background-color: #fff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  transform: scale(1); /* You can scale down if needed */
+}
+
+/* font */
+.text-maroon {
+  color: #ffffff;
+}
+
+.text-white {
+  color: #922f2f;
+}
+
+.title-maroon {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: 'Amsterdam One', cursive;
+}
+
+.title-white {
+  font-size: 1.5rem;
+  color: #922f2f;
+  font-family: 'TAN Mon Cheri', sans-serif;
+}
+
+.bg-maroon {
+  background-color: #922f2f;
+  color: #ffffff;
+}
+
+.bg-white {
+  background-color: #ffffff;
+  color: #922f2f;
+}
